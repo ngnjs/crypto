@@ -18,6 +18,8 @@ The fundamental/basic example:
 ```javascript
 import NGN from 'https://cdn.jsdelivr.net/npm/ngn@latest/index.js'
 import 'https://cdn.jsdelivr.net/npm/@ngnjs/crypto/index.js'
+// Alternative import:
+// import crypto from 'https://cdn.jsdelivr.net/npm/@ngnjs/crypto/index.js'
 
 // The crypto library is accessible from the NGN namespace
 const crypto = NGN.plugins.crypto
