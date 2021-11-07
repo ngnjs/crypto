@@ -20,7 +20,7 @@ import NGN from 'https://cdn.jsdelivr.net/npm/ngn@latest/index.js'
 import from 'https://cdn.jsdelivr.net/npm/@ngnjs/crypto/index.js'
 
 // The crypto library is accessible from the NGN namespace
-const crypto = NGN.crypto
+const crypto = NGN.plugins.crypto
 
 // Key Generation
 const { publicKey, privateKey } = await crypto.generateKeys()
