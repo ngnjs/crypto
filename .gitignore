@@ -1,0 +1,12 @@
+*.log
+*.old
+old_*
+.*
+!.github
+!.*ignore
+!.*.yml
+!.*rc
+!.npmrc
+env.json
+/**/env.json
+node_modules
