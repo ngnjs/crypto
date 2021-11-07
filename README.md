@@ -1,6 +1,6 @@
 <h1 align="center">NGN Crypto<br/><img src="https://img.shields.io/npm/v/@ngnjs/crypto?label=%40ngnjs/crypto&logo=npm&style=social"/></h1>
 
-The NGN Cryptography plugin implements [libcrypto](https://github.com/ngnjs/libcrrypto), making it accessible from NGN and for all other NGN plugins. The following libcrypto methods are available:
+The NGN Cryptography plugin implements [libcrypto](https://github.com/ngnjs/libcrypto), making it accessible from NGN and for all other NGN plugins. The following libcrypto methods are available:
 
 - `generateKeys()`
 - `sign()`
