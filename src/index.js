@@ -18,8 +18,6 @@ const crypto = {
   verify,
   encrypt,
   decrypt,
-  encryptJSON,
-  decryptJSON,
   encryptionAlgorithm
 }
 
@@ -32,7 +30,5 @@ export {
   verify,
   encrypt,
   decrypt,
-  encryptJSON,
-  decryptJSON,
   encryptionAlgorithm
 }

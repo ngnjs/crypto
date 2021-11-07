@@ -1,6 +1,6 @@
 {
   "name": "@ngnjs/crypto",
-  "version": "1.0.0-alpha.7",
+  "version": "1.0.0-alpha.8",
   "description": "A cryptography plugin for NGN",
   "type": "module",
   "main": "./src/index.js",
@@ -24,12 +24,12 @@
   },
   "devDependencies": {
     "@author.io/dev": "^1.1.2",
-    "@ngnjs/libcrypto-debug": "^1.0.0-alpha.3",
+    "@ngnjs/libcrypto-debug": "^1.0.0-alpha.4",
     "@ngnjs/plugin-debug": "^1.0.0-alpha"
   },
   "peerDependencies": {
     "ngn": "^2.0.0-alpha.5",
-    "@ngnjs/libcrypto": "^1.0.0-alpha.3",
+    "@ngnjs/libcrypto": "^1.0.0-alpha.4",
     "@ngnjs/plugin": ">=1.0.0-alpha.8"
   },
   "dependencies": {},
