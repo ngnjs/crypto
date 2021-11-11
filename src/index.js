@@ -7,7 +7,8 @@ import {
   decrypt,
   encryptJSON,
   decryptJSON,
-  encryptionAlgorithm
+  encryptionAlgorithm,
+  base32
 } from '@ngnjs/libcrypto'
 
 const NGN = new Reference()
@@ -18,7 +19,8 @@ const crypto = {
   verify,
   encrypt,
   decrypt,
-  encryptionAlgorithm
+  encryptionAlgorithm,
+  base32
 }
 
 NGN.export('crypto', crypto)
@@ -30,5 +32,6 @@ export {
   verify,
   encrypt,
   decrypt,
-  encryptionAlgorithm
+  encryptionAlgorithm,
+  base32
 }
