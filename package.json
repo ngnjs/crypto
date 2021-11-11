@@ -24,12 +24,12 @@
   },
   "devDependencies": {
     "@author.io/dev": "^1.1.2",
-    "@ngnjs/libcrypto-debug": "^1.0.0-alpha.4",
+    "@ngnjs/libcrypto-debug": "^1.0.0-alpha.7",
     "@ngnjs/plugin-debug": "^1.0.0-alpha"
   },
   "peerDependencies": {
     "ngn": "^2.0.0-alpha.5",
-    "@ngnjs/libcrypto": "^1.0.0-alpha.4",
+    "@ngnjs/libcrypto": "^1.0.0-alpha.8",
     "@ngnjs/plugin": ">=1.0.0-alpha.8"
   },
   "dependencies": {},
