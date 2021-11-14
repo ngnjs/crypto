@@ -7,9 +7,10 @@ The NGN Cryptography plugin implements [libcrypto](https://github.com/ngnjs/libc
 - `verify()`
 - `encrypt()`
 - `decrypt()`
-- `encryptJSON()`
-- `decryptJSON()`
 - `encryptionAlgorithm()`
+- `JWT.createToken()`
+- `JWT.verifyToken()`
+- `base32`
 
 **Notice:** libcrypto contains additional features which aren't commonly used. This plugin exposes the minimum number of functions required to cover the most common cryptography needs in the smallest package possible. The other functions can be imported directly from libcrypto into projects that need them.
 
